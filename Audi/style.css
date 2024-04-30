@@ -1,0 +1,51 @@
+div {
+    min-height: 100px;
+    margin-bottom: 50px;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: white;
+  }
+   
+  .background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/Audi-RS6.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+  }
+
+.h1{
+    background-color: #333333;
+    width: max-content;
+    text-align: center;
+}
+
+
+.header {
+    text-align: center;
+    padding: 15px;
+    background-color: #33333339;
+    color: rgb(0, 0, 0);
+}
+.content {
+    margin: 20px;
+    background-image: url('img/Audi-RS6.jpg');
+    height: 100vh;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+.image-container img {
+    max-width: max-content;
+    height: max-content;
+}
